@@ -4,7 +4,7 @@ function Home() {
     return (
      <>
 
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -14,22 +14,25 @@ function Home() {
                     <div className="carousel-item active">
                         <img src="https://source.unsplash.com/1600x400/?programming," className="d-block w-100" alt="could not load"/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <strong>
+                                <p>I think everybody in this country should learn how to program a computer because it teaches you how to think.</p>
+                                </strong>
                             </div>
     </div>
                         <div className="carousel-item">
                             <img src="https://source.unsplash.com/1600x400/?computer,programming" className="d-block w-100" alt="could not load"/>
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                   <strong>
+                                    <p>Measuring programming progress by lines of code is like measuring aircraft building progress by weight.</p>
+                                    </strong>
                                 </div>
     </div>
                             <div className="carousel-item">
                                 <img src="https://source.unsplash.com/1600x400/?website,coding" className="d-block w-100" alt="could not load"/>
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5>Third slide label</h5>
-                                        <p>Some representative placeholder content for the third slide.</p>
+                                    <strong>
+                                        <p>A good programmer is someone who always looks both ways before crossing a one-way street.</p>
+                                        </strong>
                                     </div>
     </div>
                             </div>
@@ -42,6 +45,13 @@ function Home() {
                                 <span className="visually-hidden">Next</span>
                             </button>
                         </div>
+
+    <div className="container my-5">
+       <h3>Let me introduce Myself!</h3> <br/>
+       <p>It all started with Gaming</p> 
+       <p>I am fulent in C++, Java, JavaScript, and learning something new everyday...</p>
+
+    </div>
 
      </>
                     );
