@@ -3,8 +3,12 @@ import React from "react";
 function Footer() {
     return (
         <>
-            <body class="d-flex flex-column min-vh-100">
-                <div class="wrapper flex-grow-1"></div>
+            <div className="d-flex flex-column b-0" style={{
+                position: "absolute",
+                bottom: "0",
+                width: "100%"
+            }}>
+                <div className="wrapper flex-grow-1"></div>
                 <footer className="bg-dark">
                     <div className="container mt-auto">
                         <span className="text-muted">
@@ -17,15 +21,15 @@ function Footer() {
                                 </div>
 
                                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                                    <li className="ms-3"><a className="text-muted" href="/"><svg className="bi" width="24" height="24"></svg>Twitter</a></li>
-                                    <li className="ms-3"><a className="text-muted" href="/"><svg className="bi" width="24" height="24"></svg>Github</a></li>
-                                    <li className="ms-3"><a className="text-muted" href="/"><svg className="bi" width="24" height="24"></svg>Linkedin</a></li>
+                                    <li className="ms-3"><a className="text-muted" href="https://twitter.com/prashan37149576"><svg className="bi" width="24" height="24"></svg>Twitter</a></li>
+                                    <li className="ms-3"><a className="text-muted" href="https://github.com/prashantsah567"><svg className="bi" width="24" height="24"></svg>Github</a></li>
+                                    <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/prashant-sah-8621b419a/"><svg className="bi" width="24" height="24"></svg>Linkedin</a></li>
                                 </ul>
                             </footer>
                         </span>
                     </div>
                 </footer>
-            </body>
+            </div>
         </>
     );
 }
