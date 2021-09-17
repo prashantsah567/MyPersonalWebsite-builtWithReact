@@ -15,7 +15,7 @@ function Home() {
                         <img src="https://source.unsplash.com/1600x400/?programming," className="d-block w-100" alt="could not load"/>
                             <div className="carousel-caption d-none d-md-block">
                                 <strong>
-                                <p>I think everybody in this country should learn how to program a computer because it teaches you how to think.</p>
+                                <p>Everybody in the world should learn how to program a computer because it teaches you how to think.</p>
                                 </strong>
                             </div>
     </div>
