@@ -14,24 +14,31 @@ function About(){
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "10px" }} className="text-center">
               Welcome to my Website !
             </h1>
             </Col>
-         <div className="text-start">
-             Hi Everyone, I am Prashant Sah from New York. <br />
-             I am a Junior Web developer pursuing my Associate degree in LaGCC.<br/>
-             Currently My major is Programming and Software Development.<br/>
+         <div className="text-center" style={{fontSize: "1.2em"}}>
+             Hello Everyone, My name is Prashant Sah and I am from New York <br />
+             I am student of LaGuardia Community College pursuing my Associate degree <br/>
+             in Programming and Software Development<br/>
+             I am very passonate about being a developer and am always learning new tech stacks<br/>
+             Most of my work and project experience are focused on developing web and problem solving skills<br/>
+             I love spending my time developing code, debugging and learning about technology<br/>
+             Beside coding and developing i am also interested in Machine learning and Artificial Intelligence and also doing research on<br/>
+             Fault detection in Wireless Sensor network using Machine Learning Algorithm with one of mentor from my college
              <br/><br/>
-             Apart from coding some other activities i love to do!<br/><br/>
-             <ul>
-                 <li>Listening to music</li>
-                 <li>Doing gym</li>
-                 <li>Travelling</li>
-                 <li>Playing Basketball</li>
-
-             </ul>
-        
+             Apart from coding some other activities i love to do:<br/>
+             
+                 Listening to music<br/>
+                 Gym<br/>
+                 Travelling<br/>
+             
+             <br/>
+             <div style={{fontSize: "0.9em", fontFamily:"cursive"}}>
+             Feel Free to visit my linkedin and Github profile mentioned in the footer section<br/>
+             Also you can view and download my Resume by visiting the resume tab
+             </div>
          </div>
          </Row>
          </Container>

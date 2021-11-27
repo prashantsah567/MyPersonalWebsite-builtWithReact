@@ -17,13 +17,13 @@ function Footer() {
                                     <a href="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                                         <svg className="bi" width="30" height="24"><use xlinkHref="#bootstrap"></use></svg>
                                     </a>
-                                    <span className="text-muted">© 2021 Company, Inc</span>
+                                    <span className="text-muted">© 2021 Prashant, Sah</span>
                                 </div>
 
                                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                                    <li className="ms-3"><a className="text-muted" href="https://twitter.com/prashan37149576"><svg className="bi" width="24" height="24"></svg>Twitter</a></li>
-                                    <li className="ms-3"><a className="text-muted" href="https://github.com/prashantsah567"><svg className="bi" width="24" height="24"></svg>Github</a></li>
-                                    <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/prashant-sah-8621b419a/"><svg className="bi" width="24" height="24"></svg>Linkedin</a></li>
+                                    <li className="ms-3"><a className="text-muted" href="https://twitter.com/prashan37149576" target="_blank"><svg className="bi" width="24" height="24"></svg>Twitter</a></li>
+                                    <li className="ms-3"><a className="text-muted" href="https://github.com/prashantsah567" target="_blank"><svg className="bi" width="24" height="24"></svg>Github</a></li>
+                                    <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/prashant-sah-8621b419a/" target="_blank"><svg className="bi" width="24" height="24"></svg>Linkedin</a></li>
                                 </ul>
                             </footer>
                         </span>

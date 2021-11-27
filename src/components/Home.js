@@ -12,26 +12,26 @@ function Home() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://source.unsplash.com/1600x400/?programming," className="d-block w-100" alt="could not load"/>
+                        <img src="https://source.unsplash.com/1600x700/?programming," className="d-block w-100" alt="could not load"/>
                             <div className="carousel-caption d-none d-md-block">
                                 <strong>
-                                <p>Everybody in the world should learn how to program a computer because it teaches you how to think.</p>
+                                <p style={{color: "black"}}>BELIEVE IN YOURSELF AND YOU ARE HALFWAY THERE</p>
                                 </strong>
                             </div>
     </div>
                         <div className="carousel-item">
-                            <img src="https://source.unsplash.com/1600x400/?computer,programming" className="d-block w-100" alt="could not load"/>
+                            <img src="https://source.unsplash.com/1600x700/?computer,programming" className="d-block w-100" alt="could not load"/>
                                 <div className="carousel-caption d-none d-md-block">
                                    <strong>
-                                    <p>Measuring programming progress by lines of code is like measuring aircraft building progress by weight.</p>
+                                    <p style={{color: "black"}}>IT'S NEVER TOO LATE TO INVET IN YOURSELF</p>
                                     </strong>
                                 </div>
     </div>
                             <div className="carousel-item">
-                                <img src="https://source.unsplash.com/1600x400/?website,coding" className="d-block w-100" alt="could not load"/>
+                                <img src="https://source.unsplash.com/1600x700/?website,coding" className="d-block w-100" alt="could not load"/>
                                     <div className="carousel-caption d-none d-md-block">
                                     <strong>
-                                        <p>A good programmer is someone who always looks both ways before crossing a one-way street.</p>
+                                        <p style={{color: "black" }}>PREMATURE OPTIMIZATION IS THE ROOT OF ALL EVIL</p>
                                         </strong>
                                     </div>
     </div>
@@ -45,14 +45,9 @@ function Home() {
                                 <span className="visually-hidden">Next</span>
                             </button>
                         </div>
-
-    <div className="container my-5">
-       <h3>Let me introduce Myself!</h3> <br/>
-       <p>It all started with Gaming</p> 
-       <p>I am fulent in C++, Java, JavaScript, and learning something new everyday...</p>
-
+    <div>
+        <h5>WElCOME</h5>
     </div>
-
      </>
                     );
 }
