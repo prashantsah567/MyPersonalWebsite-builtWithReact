@@ -3,14 +3,18 @@ import React from "react";
 function Footer() {
     return (
         <>
-            <div className="d-flex flex-column b-0" style={{
+            <div >
+                {/* 
+                mt-auto
+                //<div className="wrapper flex-grow-1"></div>
+                className="d-flex flex-column b-0" style={{
                 position: "absolute",
                 bottom: "0",
                 width: "100%"
-            }}>
-                <div className="wrapper flex-grow-1"></div>
-                <footer className="bg-dark">
-                    <div className="container mt-auto">
+            }}
+                */}
+                <footer className="bg-dark" style={{bottom:"0"}}>
+                    <div className="container">
                         <span className="text-muted">
                             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                                 <div className="col-md-4 d-flex align-items-center">
