@@ -1,4 +1,4 @@
-This is my personal website where all my academic related works are shown
-including my resume and link to github profile, linkedin profile
-I have build this website using react
-This is not perfect but i am improving it
+# myWebsite
+I have built this website on react that include my personal informations, hobbies and interests
+All of my major projects, resume and social links are available on this website
+to access this website you just need to click on this link: 
