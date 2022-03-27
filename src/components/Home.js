@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "../images/img6.jpg";
+import img2 from "../images/img15.jpg";
+import img3 from "../images/img7.jpg";
 
 function Home() {
     return (
@@ -12,7 +15,7 @@ function Home() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://source.unsplash.com/1600x700/?programming," className="d-block w-100" alt="could not load"/>
+                        <img src={img1} style={{height: 700}} className="d-block w-100" alt="could not load"/>
                             <div className="carousel-caption d-none d-md-block">
                                 <strong>
                                 <p>BELIEVE IN YOURSELF AND YOU ARE HALFWAY THERE</p>
@@ -20,7 +23,7 @@ function Home() {
                             </div>
     </div>
                         <div className="carousel-item">
-                            <img src="https://source.unsplash.com/1600x700/?computer,programming" className="d-block w-100" alt="could not load"/>
+                            <img src={img2} style={{height: 700}} className="d-block w-100" alt="could not load"/>
                                 <div className="carousel-caption d-none d-md-block">
                                    <strong>
                                     <p>IT'S NEVER TOO LATE TO INVET IN YOURSELF</p>
@@ -28,7 +31,7 @@ function Home() {
                                 </div>
     </div>
                             <div className="carousel-item">
-                                <img src="https://source.unsplash.com/1600x700/?nature,coding" className="d-block w-100" alt="could not load"/>
+                                <img src={img3} style={{height: 700}} className="d-block w-100" alt="could not load"/>
                                     <div className="carousel-caption d-none d-md-block">
                                     <strong>
                                         <p>PREMATURE OPTIMIZATION IS THE ROOT OF ALL EVIL</p>
